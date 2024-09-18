@@ -29,6 +29,7 @@ jobs:
       run: |
         python noethysweb/manage.py makemigrations
         python noethysweb/manage.py migrate
+        python noethysweb/manage.py collectstatic
         python noethysweb/manage.py createsuperuser --user admin --email admin@admin.fr --noinput
         python noethysweb/manage.py update_permissions
         python noethysweb/manage.py import_defaut
