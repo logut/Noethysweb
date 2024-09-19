@@ -19,7 +19,7 @@ django-dbbackup==3.3.0
 django-storages==1.13.1
 django-crontab==0.7.1
 django-cleanup==7.0.0
-dropbox==11.23.0
+#dropbox==11.23.0
 numpy==1.21.2
 opencv-python==4.5.3.56
 pycryptodome==3.10.4
