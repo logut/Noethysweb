@@ -35,4 +35,4 @@ jobs:
         # python noethysweb/manage.py import_defaut
     - name: Run Tests
       run: |
-        python manage.py test
+        python noethysweb/manage.py test
